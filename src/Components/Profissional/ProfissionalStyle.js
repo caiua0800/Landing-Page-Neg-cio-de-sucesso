@@ -72,10 +72,14 @@ export const ProfissionalContainer = styled.div`
 
         .profissa{
             p{
-                width: 400px;
+                width: 300px;
                 font-size: 16px;
                 text-shadow: 0 0 5px black,
                 -0 -0 5px black;
+            }
+
+            img{
+                width: 350px;
             }
         }
     }

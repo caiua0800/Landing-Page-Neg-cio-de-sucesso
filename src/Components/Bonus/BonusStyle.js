@@ -118,7 +118,7 @@ export const BonusInfo = styled.div`
       }
 
       img{
-        width: 400px;
+        width: 300px;
       }
     }
 `;

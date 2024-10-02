@@ -49,7 +49,7 @@ export const DepoimentosImageContainer = styled.div`
         justify-content: center;
 
         .item{
-            width: 300px;
+            min-width: 300px;
             height: 250px;
             padding: 10px;
             box-sizing: border-box;
@@ -99,5 +99,12 @@ export const DepoimentosImageContainer = styled.div`
 
     @media (max-width: 1000px){
         padding: 0 20px;
+
+        .Carousel{
+            .item{
+                min-width: 250px;
+                height: 140px;
+            }
+        }
     }
 `;

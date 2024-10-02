@@ -92,7 +92,9 @@ export const BoxOfEffect = styled.div`
                 .internal{
                     display: flex;
                     gap: 5px;
-
+                    width: 150px;
+                    overflow: hidden;
+                    
                     li{
                         list-style-type: square; /* Estilo do marcador */
                         list-style-position: outside; /* Posição do marcador */
