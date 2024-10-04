@@ -26,7 +26,7 @@ function App() {
           <PraQuem />
           <Profissional />
           <Explicacao />
-          <Depoimentos />
+          {/* <Depoimentos /> */}
           {/* <VaiAprender /> */}
           {/* <Recupere /> */}
           <Carouselzin />

@@ -114,12 +114,11 @@ export const BoxOfEffect = styled.div`
 
     @media (max-width: 1000px){
         flex-direction: column;
-        align-items: center;
-        padding: 0 20px;
+        align-items: start;
 
         .half{
             flex-direction: column;
-            width: 100%;
+            width: 80%;
 
 
             p{
@@ -128,6 +127,17 @@ export const BoxOfEffect = styled.div`
 
             img{
                 margin: 0;
+            }
+
+            .bahzin{
+                max-width: 100%;
+            }
+
+            .internal{
+
+                li{
+                    width: 250px;
+                }
             }
         }
     }
@@ -172,6 +182,8 @@ export const Vantagens = styled.div`
         flex-direction: column;
         gap: 10px;
     }
+
+
 `;
 
 export const GarantiaTitle = styled.h2`
@@ -180,6 +192,10 @@ export const GarantiaTitle = styled.h2`
     font-size: 48px;
     color: gold;
     margin-bottom: -80px;
+
+    @media(max-width: 1000px){
+        font-size: 42px;
+    }
 `;
 
 export const Garantias = styled.ul`
@@ -203,5 +219,17 @@ export const Garantia = styled.li`
         color: rgba(255, 255, 255, 1);
         font-size: 28px;
         margin-left: 50px;
+    }
+
+    @media(max-width: 1000px){
+        font-size: 28px;
+
+        .sub{
+            font-size: 24px;
+        }
+
+        .sub2{
+            font-size: 22px;
+        }
     }
 `;

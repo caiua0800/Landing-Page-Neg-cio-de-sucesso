@@ -18,20 +18,20 @@ export default function Explicacao() {
                         {/* <span>
                         </span> */}
                         <ul>
-                            <li>Disponibilidade de 10 cotas de 100 mil
+                            <li className="bahzin">Disponibilidade de 10 cotas de 100 mil
 
                                 <ul className="internal">
                                     <li className="uiui">CONTRATOS DE 24 MESES</li>
                                 </ul>
                             </li>
 
-                            <li>Disponibilidade de 20 cotas de 50 mil
+                            <li className="bahzin">Disponibilidade de 20 cotas de 50 mil
                                 <ul className="internal">
                                     <li className="uiui">CONTRATOS DE 24 MESES</li>
                                 </ul>
                             </li>
 
-                            <li>LUCRO EM PROJETOS MILIONÁRIOS
+                            <li className="bahzin">LUCRO EM PROJETOS MILIONÁRIOS
 
                                 <ul className="internal">
                                     <li className="uiui">
