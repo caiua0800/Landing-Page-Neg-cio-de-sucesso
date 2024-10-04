@@ -9,9 +9,8 @@ export default function Header() {
             <S.HeaderContainer>
                 <div className="fundin" />
                 <h2>
-                    APRENDA E LEVAR A SER UM <span>EMPRESÁRIO DE SUCESSO</span>,
-                    E LEVE SEU NEGÓCIO E SUA HISTÓRIA A OUTRO NÍVEL!
-                    COM A <span>GARANTIA DE ATÉ 5%</span> DE MEUS LUCROS.
+                    SEJA UM <span>SÓCIO COTISTA</span>  EM UM  <span>MILIONÁRIO</span> ,
+                    E TANHA UM <span>LUCRO DE 5% E ROYALTS</span>  SOB AS EMPRESAS DE SUCESSO?
                 </h2>
             </S.HeaderContainer>
         </>

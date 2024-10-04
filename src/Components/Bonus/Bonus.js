@@ -9,14 +9,14 @@ export default function Bonus() {
             <S.BonusContainer>
                 <S.Bonuszin>
                     <h1>ADQUIRA HOJE E AUMENTE SEU PATRIMÔNIO</h1>
-                    <h1>ENTRE COM SUA EMPRESA!</h1>
+                    <h1>SEJA UM COTISTA!</h1>
                 </S.Bonuszin>
 
-                <S.Bonuszin className="mt-5">
+                {/* <S.Bonuszin className="mt-5">
                     <h1>DIFERENCIAIS 01</h1>
-                </S.Bonuszin>
+                </S.Bonuszin> */}
 
-                <S.BonusInfo>
+                {/* <S.BonusInfo>
                     <h5>PLATAFORMA ONLINE</h5>
 
                     <img className="mt-1" alt="bonus info" src="platform1.png"/>
@@ -25,7 +25,7 @@ export default function Bonus() {
 
                     <p className="mt-1">CHAT NA PLATAFORMA, AGENDAMENTO DE ATIVIDADES, MARCAR REUNIÕES, CONSULTAR ATIVOS, INVESTIMENTOS, CARTEIRA VIRTUAL.</p>
 
-                    {/* <h6 className="mt-1">Custa R$997,00</h6> */}
+     
                 </S.BonusInfo>
 
                 <S.Bonuszin className="mt-1">
@@ -41,8 +41,7 @@ export default function Bonus() {
                     <h2 className="mt-1">APLICATIVO NATIVO IOS E ANDROID</h2>
                     <p className="mt-1">CHAT NA APP, NOTIFICAÇÕES, AGENDAMENTO DE ATIVIDADES, MARCAR REUNIÕES, CONSULTAR ATIVOS, INVESTIMENTOS, CARTEIRA VIRTUAL.</p>
 
-                    {/* <h6 className="mt-1">Custa R$147,00</h6> */}
-                </S.BonusInfo>
+                </S.BonusInfo> */}
 
                 <S.ButtonQuero><button>QUERO SER UM EMPRESÁRIO DE SUCESSO</button></S.ButtonQuero>
 

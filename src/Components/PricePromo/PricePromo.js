@@ -7,21 +7,20 @@ export default function PricePromo() {
         <>
             <S.PriceDownHeaderContainer>
                 <S.PriceModel>
-                    <h6>MASTER CLASS EXECUTIVO DE MINÉRIOS</h6>
-                    {/* <span>de R$599,00 Por Apenas</span> */}
-                    <h2>12x de</h2>
-                    <h2>R$ 999,99</h2>
-                    <span>ou R$ 10.000,00 à vista</span>
+                    <h6>COTA DE R$100.000,00</h6>
+                    <h2>10x de</h2>
+                    <h2>R$ 10.500,00</h2>
+                    <span>ou R$ 100.000,00 à vista</span>
                 </S.PriceModel>
                 <S.PriceModel className="mt-2">
-                    <h6>Seja um Empresário Milionário</h6>
-                    <span>de R$599,00 Por Apenas</span>
-                    <h2>12x de</h2>
-                    <h2>R$ 3099,00</h2>
-                    <span>ou R$ 35.000,00 à vista</span>
+                    <h6>cota de R$50.000,00</h6>
+                    {/* <span>de R$599,00 Por Apenas</span> */}
+                    <h2>10x de</h2>
+                    <h2>R$ 5.350,00</h2>
+                    <span>ou R$ 50.000,00 à vista</span>
                 </S.PriceModel>
                 <S.ButtonQuero>
-                    <button>SIM, QUERO COMEÇAR AGORA</button>
+                    <button>SIM, QUERO ADQUIRIR AGORA</button>
                 </S.ButtonQuero>
             </S.PriceDownHeaderContainer>
         </>

@@ -10,7 +10,7 @@ export default function Depoimentos() {
             <S.DepoimentoContainer>
                 <h1>DEPOIMENTOS</h1>
 
-                <p>Clientes que chegaram ao sucesso</p>
+                {/* <p>DEPOIMENTO DE PESSO</p> */}
 
                 <S.DepoimentosImageContainer>
                     <div className="Carousel">

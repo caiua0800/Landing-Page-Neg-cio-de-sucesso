@@ -12,28 +12,27 @@ export default function PraQuem() {
     return (
         <>
             <S.PraQuemContainer>
-                <h2>PRA <span>QUEM </span> É A CONSULTORIA?</h2>
+                <h2>PRA QUEM SÃO AS COTAS</h2>
                 <S.BoxOfBoxes ref={ref}>
                     <S.Box className={inView ? 'visible' : ''}>
                         <h3>Pra Você…</h3>
                         <h4>
-                            Que quer saber como de engajar no
-                             mundo dos minérios e mudar sua vida financeira.
+                            Que quer sair do ninho dos bancos,
+                            e colocar seu dinheiro em algo que lucre mais
                         </h4>
                     </S.Box>
 
                     <S.Box className={inView ? 'visible' : ''}>
                         <h3>Pra Você…</h3>
                         <h4>
-                            Que não sabe mais como ir pra frente com sua empresa.
+                            Que quer ter uma parte dos lucros de empresas de sucesso
                         </h4>
                     </S.Box>
 
                     <S.Box className={inView ? 'visible' : ''}>
                         <h3>Pra Você…</h3>
                         <h4>
-                            Que quer ter um conhecimento avançado do mercado
-                            que mudará a sua vida.
+                            Que quer ter uma cota de mineração e triplicar seu patrimônio
                         </h4>
                     </S.Box>
                 </S.BoxOfBoxes>

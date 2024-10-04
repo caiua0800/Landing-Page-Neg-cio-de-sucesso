@@ -27,7 +27,7 @@ export default function Profissional() {
             </div>
 
             <S.ButtonQuero className={inView ? 'visible' : ''}>
-                <button>QUERO FAZER PARTE DESSE NEGÓCIO!</button>
+                <button>QUERO SER UM COTISTA!</button>
             </S.ButtonQuero>
         </S.ProfissionalContainer>
     );

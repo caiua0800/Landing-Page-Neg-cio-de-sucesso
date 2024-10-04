@@ -10,11 +10,11 @@ export default function Duvidas() {
 
     const faqs = [
         {
-            question: "Qual o formato do curso?",
+            question: "Qual o prazo das cotas?",
             answer: "Você terá acesso a diversas vídeo aulas (passo a passo) + Bônus Especiais."
         },
         {
-            question: "Quais as formas de pagamento?",
+            question: "Como posso saber mais sobre a blindagem?",
             answer: "Você pode pagar via cartão de crédito, boleto, entre outros."
         },
         // Adicione mais perguntas e respostas conforme necessário

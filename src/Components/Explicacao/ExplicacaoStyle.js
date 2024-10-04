@@ -14,7 +14,7 @@ export const ExplicacaoContainer = styled.div`
 
     h1{
         margin: 0;
-        font-size: 28px;
+        font-size: 42px;
         color: white;
     }
 
@@ -31,7 +31,7 @@ export const BoxOfEffect = styled.div`
     box-sizing: border-box;
 
     .half{
-        width: 50%;
+        width: 60%;
         box-sizing: border-box;
         display: flex;
         flex-direction: column;
@@ -60,7 +60,7 @@ export const BoxOfEffect = styled.div`
 
         img{
             margin-left: -50px;
-            width: 50%;
+            width: 60%;
             transition: .8s;
             opacity: 0.8;
 
@@ -83,16 +83,16 @@ export const BoxOfEffect = styled.div`
             flex-direction: column;
             align-items: start;
             width: 100%;
-            gap: 40px;
+            gap: 10px;
 
             li{
-                font-size: 22px;
-                max-width: 300px;
+                font-size: 26px;
+                // max-width: 300px;
 
                 .internal{
                     display: flex;
                     gap: 5px;
-                    width: 150px;
+                    width:300px;
                     overflow: hidden;
                     
                     li{
@@ -130,5 +130,78 @@ export const BoxOfEffect = styled.div`
                 margin: 0;
             }
         }
+    }
+`;
+
+export const Vantagens = styled.div`
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+    p{
+        margin: 0;
+        text-align: center;
+        font-size: 48px;
+        color: rgba(140,255, 10, 1);
+        filter: drop-shadow(0 0 10px rgba(140,255, 10, 0.4));
+    }
+
+    .aiaiPapai{
+        display: flex;
+        gap: 50px;
+        flex-wrap: wrap;
+        justify-content: start;
+    }
+
+    .liManda{
+        color: white;
+        font-size: 28px;
+        text-align: start;
+    }
+
+    .liNaoManda{
+        color: rgba(255, 255, 255, 0.8);
+        font-size: 22px;
+
+    }
+
+    .viadinll{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+`;
+
+export const GarantiaTitle = styled.h2`
+    margin: 0;
+    color: white;
+    font-size: 48px;
+    color: gold;
+    margin-bottom: -80px;
+`;
+
+export const Garantias = styled.ul`
+    width: 100%;
+    margin: 0;
+`;
+
+export const Garantia = styled.li`
+    font-size: 38px;
+    font-weight: 800;
+    color: gold;
+    text-align: start;
+    margin: 0;
+
+    .sub{
+        color: white;
+        font-size: 32px;
+    }
+
+    .sub2{
+        color: rgba(255, 255, 255, 1);
+        font-size: 28px;
+        margin-left: 50px;
     }
 `;

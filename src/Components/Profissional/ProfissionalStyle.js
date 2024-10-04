@@ -19,14 +19,14 @@ export const ProfissionalContainer = styled.div`
     h1 {
         color: white;
         margin: 0;
-        font-size: 42px;
+        font-size: 58px;
         margin-top: 50px;
     }
 
     h2 {
         color: #ffc300;
         margin: 0;
-        font-size: 44px;
+        font-size: 58px;
     }
 
     .profissa {
